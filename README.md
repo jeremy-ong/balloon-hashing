@@ -1,0 +1,3 @@
+Based on the balloon hashing algorithm by Dan Boneh, Henry Corrigan-Gibbs, and Stuart Schechter described in "Balloon Hashing: A Memory-Hard Function Providing Provable Protection Against Sequential Attacks".
+
+A parallelized implementation of balloon hashing, a tunable, memory-hard hash algorithm. This implementation uses SHA256 as a subroutine. Other subroutine hash algorithms can be substituted with minor adjustments. Fixed-width integers are used for compatibility across architectures. However, systems using char types greater than 8 bits or byte sizes other than 8 bits may not work correctly.
